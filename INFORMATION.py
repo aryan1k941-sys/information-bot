@@ -537,7 +537,7 @@ print("✅ SIGTERM/SIGINT handler registered — safe shutdown backup enabled")
 # Render/Heroku/VPS par environment variables mein set karo:
 #   BOT_TOKEN = "8872936013:AAFfjeSMwldDBAUn4UwiRrwcjGiU0yO8Y3c"
 #   OWNER_ID  = "7981894574"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8974101135:AAFOjxVrl6T7Mv8WtXmNJBQSjGHZJfqecQY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "9130219659:AAH24urzThI2hajSUDYo9ZP7qPy2vCc8ods")
 if not BOT_TOKEN:
     raise RuntimeError("❌ BOT_TOKEN environment variable set nahi hai! Render > Environment mein BOT_TOKEN add karo.")
 
@@ -549,21 +549,21 @@ except ValueError:
     OWNER_ID = 8781077406
 
 # Database and Logs Channel
-DB_CHANNEL = os.environ.get("DB_CHANNEL", "-1003755924921").strip()
-LOGS_CHANNEL = os.environ.get("LOGS_CHANNEL", "-1003755924921").strip()
+DB_CHANNEL = os.environ.get("DB_CHANNEL", "-1004425087388").strip()
+LOGS_CHANNEL = os.environ.get("LOGS_CHANNEL", "-1004425087388").strip()
 if not DB_CHANNEL:
     print("⚠️ WARNING: DB_CHANNEL env var set nahi — DB logs disabled. Render > Environment mein DB_CHANNEL add karo.")
 if not LOGS_CHANNEL:
     print("⚠️ WARNING: LOGS_CHANNEL env var set nahi — activity logs disabled. Render > Environment mein LOGS_CHANNEL add karo.")
 
 
-FREE_CREDITS = 5
+FREE_CREDITS = 1
 CLONE_BOT_REFERRALS_NEEDED = 0
-DAILY_CREDITS = 5
+DAILY_CREDITS = 2
 REFERRAL_CREDITS = 5
 
 # Bot Credit Line (using special bold)
-BOT_CREDIT = "⚡ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ : @XLARYAN_0100"
+BOT_CREDIT = "⚡ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ : @BOTS_UPDATE_07"
 
 # ── Feature Credit Costs (Admin can change at runtime) ──
 # Feature costs loaded from DB, fallback to defaults
